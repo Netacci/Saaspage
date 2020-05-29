@@ -1,0 +1,520 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  background-color: #f8f9fa;
+  padding: 1px;
+}
+
+
+.navlink {
+  text-decoration: none;
+  color: #051441;
+  font-size: 0.938rem;
+  width: 100%;
+  text-align: center;
+  padding: 1%;
+}
+
+.navlink:hover {
+  background-color: #6754e2;
+  color: #fff;
+  transition: 0.3ms ease-in-out;
+}
+
+.navlist {
+  display: none;
+
+}
+
+.mobilenav-list {
+  display: none;
+  padding: 3%;
+  margin: 5%;
+  position: fixed;
+  width: 90%;
+  background-color: #Fff;
+  border-radius: 36px;
+  margin-top: 25%;
+  border: 1px solid #6754e2;
+
+}
+
+.nav-items {
+  display: grid;
+  padding: 1rem;
+  z-index: 100;
+  justify-items: center;
+  grid-gap: 1em;
+}
+
+
+#close {
+  display: none;
+  font-size: 1.6rem;
+
+}
+
+.fa-bars {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #ffff;
+  box-shadow: 0 2px 3px 0 rgba(12, 0, 46, .04);
+}
+
+.heading {
+  text-align: center;
+  margin: 5%;
+  margin-top: 27%;
+
+}
+
+.head-title {
+  font-size: 1.625rem;
+  color: #051441;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+.head-inner {
+  font-weight: 700;
+}
+
+.head-p {
+  font-family: 'Poppins', sans-serif;
+  color: #677294;
+  margin-top: 5%;
+  line-height: 30px;
+  font-size: 1.125rem;
+}
+
+.input-head {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+}
+
+.input-text {
+  border-radius: 30px;
+  padding: 6%;
+  border: 1px solid #e9ebf4;
+  outline: none;
+  border-color: #e1e1e1;
+  cursor: text;
+
+}
+
+.btn {
+  border-radius: 25px;
+  padding: 4%;
+  color: #ffffff;
+  background-color: #6754e2;
+  border: none;
+  outline: none;
+
+}
+
+.head-btn {
+  margin-top: 5%;
+  width: 40%;
+
+}
+
+.banner-img {
+  width: 95%;
+}
+
+.brands {
+  text-align: center;
+  margin-top: 8%;
+}
+
+.brand-p {
+  color: #4b505e;
+  font-size: 1.125rem;
+}
+
+.brand-images {
+  display: grid;
+  /* flex-direction: column; */
+  justify-items: center;
+  grid-gap: 2em;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.support {
+  text-align: center;
+  margin-top: 25%;
+}
+
+.support-title {
+  color: #051441;
+  font-size: 1.5rem;
+}
+
+.help {
+  margin-top: 20%;
+}
+
+.help-p {
+  color: #051441;
+  font-size: 1.125rem;
+  margin-top: 4%;
+}
+
+.ticket-btn {
+  padding: 3%;
+  width: 40%;
+  margin-top: 5%;
+}
+
+.email {
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+
+.door {
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 1px;
+
+}
+
+.door-title {
+  color: #222d39;
+  font-size: 1.5rem;
+  margin-top: 20%;
+
+}
+
+.door-p {
+  color: #677294;
+  font-size: 1rem;
+  line-height: 28px;
+  margin-top: 5%;
+}
+
+.items {
+  margin-top: 10%;
+  display: grid;
+  padding: 3%;
+  grid-gap: 2em;
+}
+
+.collab {
+  background-color: #6754e2;
+  border-radius: 10px;
+  text-align: left;
+  padding: 9%;
+  box-shadow: 0 2px 3px 0 rgba(12, 0, 46, .04);
+}
+
+.collab-title {
+  color: #fff;
+  font-size: 1.063rem;
+}
+
+.collab-p {
+  color: #fff;
+  font-size: 0.938rem;
+}
+
+.design,
+.easy {
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: left;
+  padding: 9%;
+  box-shadow: 0 2px 3px 0 rgba(12, 0, 46, .04);
+}
+
+.design-title {
+  color: #222d39;
+  font-size: 1.063rem;
+}
+
+.design-p {
+  font-weight: 300;
+  color: #677294;
+  font-size: 0.938rem;
+}
+
+.tab {
+  /* width: 445px; */
+  width: 100%;
+  margin-bottom: 20%;
+}
+
+.integration {
+  background-color: #eaeeff;
+  text-align: center;
+  padding: 1px;
+}
+
+.int-title {
+  color: #222d39;
+  font-size: 1.5rem;
+  margin-top: 20%;
+}
+
+.int-p {
+  color: #677294;
+  font-size: 1rem;
+  line-height: 28px;
+  margin-top: 10%;
+}
+
+.int-img {
+  margin-top: 10%;
+  width: 95%;
+}
+
+.brandnames {
+  margin-top: 10%;
+  display: grid;
+  padding: 3%;
+  grid-gap: 2em;
+  justify-items: center;
+}
+
+.metrics {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 9%;
+  box-shadow: 0 2px 3px 0 rgba(12, 0, 46, .04);
+  width: 100%;
+}
+
+@media all and (min-width:768px) {
+  .head-title {
+    font-size: 2rem;
+  }
+
+  .heading {
+    margin-top: 15%;
+  }
+
+  .mobilenav-list {
+    width: 78%;
+    margin-top: 18%;
+    margin-left: 11%;
+  }
+
+  .nav-items {
+    grid-gap: 2em;
+  }
+
+  .input-head {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .input-text {
+    grid-column: 1/3;
+    padding: 3%;
+    grid-row: 1;
+  }
+
+  .head-link {
+    align-self: center;
+    justify-self: end;
+    grid-column: 1/3;
+    grid-row: 1;
+  }
+
+  .head-btn {
+    width: 188%;
+    padding: 17%;
+    margin-left: -104%;
+  }
+
+  .brand-images {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .support {
+    margin-top: 14%;
+  }
+
+  .support-title {
+    font-size: 1.875rem;
+  }
+
+  .support-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .email {
+    margin-top: 20%;
+    margin-bottom: 30%;
+  }
+
+  .ticket-btn {
+    padding: 5%;
+    width: 50%;
+  }
+
+  .door-title {
+    font-size: 1.875rem;
+    margin-top: 15%;
+  }
+
+  .door-p {
+    width: 77%;
+    margin-left: 11%;
+  }
+
+  .collab,
+  .easy,
+  .design {
+    padding: 6%;
+  }
+
+  .tab {
+    margin-bottom: 6%;
+  }
+
+  .int-title {
+    font-size: 1.875rem;
+    margin-top: 10%;
+  }
+
+  .int-p {
+    margin-top: 5%;
+  }
+
+  .brandnames {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .int-img {
+    width: 100%;
+    grid-row: 1/3;
+    height: 100%;
+  }
+}
+
+@media all and (min-width:1024px) {
+
+  #bar {
+    display: none;
+  }
+
+  .navlist {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1em;
+  }
+
+  .navlink {
+    color: #051441;
+    font-size: 0.938rem;
+  }
+
+  .navlink:hover {
+    color: #6754e2;
+    transition: 0.3s ease-in-out;
+  }
+
+  .head-title {
+    font-size: 2.5rem;
+    /* margin: 9%; */
+    width: 70%;
+    margin-left: 16%;
+    margin-top: -5%;
+  }
+
+  .head-p {
+    width: 70%;
+    margin-left: 16%;
+    margin-top: 2%;
+  }
+
+  .input-head {
+    width: 50%;
+    margin-left: 28%;
+    margin-top: 5%;
+  }
+
+  .brands {
+    margin-top: 3%;
+  }
+
+  .brand-images {
+    margin-top: 3%;
+  }
+
+  .support {
+    margin-top: 5%;
+  }
+
+  .banner-img {
+    padding: 4%;
+  }
+
+  .ticket-btn {
+    padding: 3%;
+    width: 40%;
+  }
+
+  .email {
+    margin-bottom: 10%;
+  }
+
+  .door-title {
+    margin-top: 5%;
+  }
+
+  .items {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .tab {
+    grid-row: 1/4;
+    grid-column: 2;
+  }
+
+  .door-p {
+    width: 40%;
+    margin-left: 29%;
+    margin-top: 2%;
+  }
+
+  .items {
+    margin-top: 3%;
+  }
+
+  .int-title {
+    margin-top: 3%;
+  }
+
+  .int-p {
+    width: 60%;
+    margin-left: 19%;
+    margin-top: 2%;
+  }
+
+  .brandnames {
+    margin-top: 3%;
+  }
+}
