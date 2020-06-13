@@ -24,9 +24,8 @@ body {
 }
 
 .navlink:hover {
-  background-color: #6754e2;
-  color: #fff;
-  transition: 0.3ms ease-in-out;
+  color: #6754e2;
+  transition: 0.3s ease-in-out;
 }
 
 .navlist {
@@ -429,11 +428,6 @@ body {
   .navlink {
     color: #051441;
     font-size: 0.938rem;
-  }
-
-  .navlink:hover {
-    color: #6754e2;
-    transition: 0.3s ease-in-out;
   }
 
   .head-title {
